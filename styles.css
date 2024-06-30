@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.sort-container {
+    width: 20%;
+    height: 300px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.bar {
+    width: 20px;
+    background-color: #3498db;
+    position: absolute;
+    bottom: 0;
+}
+
+.bar.sorted {
+    background-color: #2ecc71;
+}
